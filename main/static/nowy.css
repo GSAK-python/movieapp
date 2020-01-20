@@ -1,0 +1,9 @@
+body {
+    color: #red;
+    padding: 50px;
+}
+
+img {
+    width: 150px;
+    float: left;
+}
