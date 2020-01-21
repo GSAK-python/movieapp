@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['https://movierater-gsak.herokuapp.com', 'localhost:8', ".herokuapp.com", ".researchthroughdesign.org"]
+ALLOWED_HOSTS = ['https://movierater-gsak.herokuapp.com', 'localhost:8', ".herokuapp.com", ".researchthroughdesign.org", 'http://127.0.0.1:8000/']
 
 
 # Application definition
